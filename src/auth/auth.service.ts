@@ -3,7 +3,7 @@ import { JwtService } from '@nestjs/jwt';
 import { InjectRepository } from '@nestjs/typeorm';
 import { UserRepository } from '../users/user.repository';
 import { LoginDto } from './dto/login.dto';
-import { User } from '../users/user.entity';
+import { User } from '../users/user.entity'; 
 
 @Injectable()
 export class AuthService {
